@@ -1,0 +1,23 @@
+{
+  "easy": [
+    ["rain", "bow"],
+    ["foot", "ball"],
+    ["sun", "flower"],
+    ["note", "book"],
+    ["tooth", "brush"]
+  ],
+  "medium": [
+    ["star", "fish"],
+    ["moon", "light"],
+    ["snow", "man"],
+    ["fire", "fly"],
+    ["water", "fall"]
+  ],
+  "hard": [
+    ["earth", "quake"],
+    ["news", "paper"],
+    ["basket", "ball"],
+    ["air", "plane"],
+    ["black", "board"]
+  ]
+}
