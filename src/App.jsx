@@ -6,13 +6,14 @@ import AlphaShoot from "./AlphaShoot";
 import FindAdjective from "./FindAdjective";
 import VR from "./VR";
 import NVR from "./NVR";
+import ShapeColors from "./ShapeColors";
 
 const GAME_OPTIONS = [
   { key: 'compound', label: 'Compound Word-Solo' },
-  { key: 'adjective', label: 'Find Adjective' },
   { key: 'vr', label: 'VR' },
   { key: 'nvr', label: 'NVR' },
   { key: 'alpha', label: 'Alpha Shoot' },
+  { key: 'shapecolors', label: 'Shapes & Colors Quest' },
 ];
 
 
@@ -271,6 +272,13 @@ function App() {
     if (selectedGame === 'nvr') {
       return (
         <NVR
+          onBack={() => setPage('select')}
+        />
+      );
+    }
+    if (selectedGame === 'shapecolors') {
+      return (
+        <ShapeColors
           onBack={() => setPage('select')}
         />
       );

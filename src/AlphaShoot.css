@@ -1,0 +1,163 @@
+.alpha-shoot-container {
+  min-height: 100dvh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e1bee7 0%, #8e24aa 100%);
+  position: relative;
+}
+.alpha-shoot-back {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  background: #fffbe7;
+  border: 2px solid #355ee5;
+  color: #355ee5;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 10px 18px;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.alpha-shoot-back:hover {
+  background: #e1bee7;
+  color: #fff;
+  border-color: #8e24aa;
+}
+.alpha-shoot-timer {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  font-size: 1.3em;
+  color: #d32f2f;
+  font-weight: bold;
+  background: #fffbe7;
+  border-radius: 10px;
+  padding: 8px 18px;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+}
+.alpha-shoot-title {
+  color: #8e24aa;
+  font-weight: bold;
+  font-size: 2.2em;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 0 #fffbe7;
+  font-family: Luckiest Guy, Comic Sans MS, Bubblegum Sans, cursive;
+}
+.alpha-shoot-prompt {
+  color: #355ee5ff;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 24px;
+}
+.alpha-shoot-prompt span {
+  color: #f7f7f7ff;
+  font-size: 1.5em;
+}
+.alpha-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  max-width: 430px;
+  width: 100%;
+  margin: 0 auto 32px auto;
+}
+.alpha-btn {
+  font-size: 1.1em;
+  padding: 14px 0;
+  border-radius: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #fffbe7 0%, #ffe082 100%);
+  color: #8e24aa;
+  border: 2px solid #8e24aa;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  width: 100%;
+}
+.alpha-btn.target {
+  background: linear-gradient(135deg, #ffeb3b 0%, #ffd600 100%);
+  color: #d32f2f;
+  border: 3px solid #fbc02d;
+}
+@media (min-width: 431px) {
+  .alpha-grid {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 520px;
+    gap: 20px;
+  }
+  .alpha-btn {
+    font-size: 1.5em;
+    padding: 22px 0;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .alpha-grid {
+    max-width: 98vw;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+  .alpha-btn {
+    font-size: 1em !important;
+    padding: 10px 0 !important;
+    border-radius: 12px !important;
+  }
+}
+.alpha-shoot-dialog {
+  background: #fffbe7;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  padding: 32px 28px 24px 28px;
+  min-width: 260px;
+  text-align: center;
+  font-family: inherit;
+  position: relative;
+  margin-top: 24px;
+}
+.alpha-shoot-dialog.winner {
+  border: 3px solid #ffd600;
+}
+.alpha-shoot-dialog.gameover {
+  border: 3px solid #e57373;
+}
+.alpha-shoot-dialog h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 18px;
+}
+.alpha-shoot-dialog p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 18px;
+}
+.alpha-shoot-dialog button {
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #2196f3 0%, #00bcd4 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+  padding: 16px 32px;
+  margin-top: 12px;
+}
+.alpha-shoot-score {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 18px;
+}
+.alpha-shoot-score span {
+  font-weight: bold;
+}
+.alpha-shoot-score .score {
+  color: #43a047;
+}
+.alpha-shoot-score .misses {
+  color: #d32f2f;
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./AlphaShoot.css";
 
 const ALPHABETS = Array.from({ length: 26 }, (_, i) => String.fromCharCode(65 + i));
 
@@ -132,45 +133,25 @@ export default function AlphaShoot({ onBack }) {
       </h2>
       {/* Target Prompt */}
       {!gameOver && !winner && (
-        <h3 style={{ color: "#e53935", fontWeight: "bold", fontSize: "1.5em", marginBottom: 24 }}>
-          Find the letter: <span style={{ color: "#43a047", fontSize: "1.5em" }}>{target}</span>
+        <h3 style={{ color: "#355ee5ff", fontWeight: "bold", fontSize: "1.5em", marginBottom: 24 }}>
+          Find the letter: <span style={{ color: "#f7f7f7ff", fontSize: "1.5em" }}>{target}</span>
         </h3>
       )}
       {/* Alphabet List */}
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "18px",
-          justifyContent: "center",
-          alignItems: "center",
-          marginBottom: 32,
-          maxWidth: "600px",
-        }}
-      >
-        {ALPHABETS.map((letter) => (
-          <button
-            key={letter}
-            onClick={() => handleLetterClick(letter)}
-            disabled={gameOver || winner}
-            style={{
-              fontSize: "1.5em",
-              fontWeight: "bold",
-              background: letter === target ? "#ffeb3b" : "#fffbe7",
-              color: letter === target ? "#d32f2f" : "#8e24aa",
-              border: letter === target ? "3px solid #fbc02d" : "2px solid #8e24aa",
-              borderRadius: 12,
-              padding: "18px 24px",
-              margin: "4px",
-              boxShadow: "0 2px 8px rgba(0,0,0,0.10)",
-              cursor: gameOver || winner ? "not-allowed" : "pointer",
-              transition: "background 0.2s, color 0.2s, border 0.2s",
-            }}
-          >
-            {letter}
-          </button>
-        ))}
-      </div>
+      {!(gameOver || winner) && (
+        <div className="alpha-grid">
+          {ALPHABETS.map((letter) => (
+            <button
+              key={letter}
+              onClick={() => handleLetterClick(letter)}
+              disabled={gameOver || winner}
+              className={`alpha-btn${letter === target ? ' target' : ''}`}
+            >
+              {letter}
+            </button>
+          ))}
+        </div>
+      )}
       {/* Score & Misses */}
       <div style={{ fontSize: "1.2em", color: "#333", marginBottom: 18 }}>
         Score: <span style={{ color: "#43a047", fontWeight: "bold" }}>{score}</span> | Misses: <span style={{ color: "#d32f2f", fontWeight: "bold" }}>{misses}</span>

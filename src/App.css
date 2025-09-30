@@ -1,3 +1,54 @@
+.alpha-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  max-width: 430px;
+  width: 100%;
+  margin: 0 auto 32px auto;
+}
+.alpha-btn {
+  font-size: 1.1em;
+  padding: 14px 0;
+  border-radius: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #fffbe7 0%, #ffe082 100%);
+  color: #8e24aa;
+  border: 2px solid #8e24aa;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  width: 100%;
+}
+.alpha-btn.target {
+  background: linear-gradient(135deg, #ffeb3b 0%, #ffd600 100%);
+  color: #d32f2f;
+  border: 3px solid #fbc02d;
+}
+@media (min-width: 431px) {
+  .alpha-grid {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 520px;
+    gap: 20px;
+  }
+  .alpha-btn {
+    font-size: 1.5em;
+    padding: 22px 0;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .alpha-grid {
+    max-width: 98vw;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+  .alpha-btn {
+    font-size: 1em !important;
+    padding: 10px 0 !important;
+    border-radius: 12px !important;
+  }
+}
 /* Responsive layout for main app screens */
 @media (max-width: 900px) {
   .container {
