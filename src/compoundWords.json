@@ -1,23 +1,36 @@
 {
   "easy": [
-    ["rain", "bow"],
-    ["foot", "ball"],
-    ["sun", "flower"],
-    ["note", "book"],
-    ["tooth", "brush"]
+    ["rain", "bow"], ["foot", "ball"], ["sun", "flower"], ["note", "book"], ["tooth", "brush"], ["cup", "cake"], ["bed", "room"], ["cow", "boy"], ["lady", "bug"], ["snow", "ball"],
+    ["play", "ground"], ["pop", "corn"], ["mail", "box"], ["pan", "cake"], ["sail", "boat"], ["jelly", "fish"], ["sand", "box"], ["back", "pack"], ["gold", "fish"], ["star", "fish"],
+    ["moon", "light"], ["snow", "man"], ["fire", "fly"], ["water", "fall"], ["rain", "coat"], ["sea", "shell"], ["butter", "fly"], ["key", "board"], ["hand", "shake"], ["shoe", "lace"],
+    ["sun", "rise"], ["sun", "set"], ["book", "case"], ["book", "mark"], ["hair", "brush"], ["ear", "ring"], ["wrist", "watch"], ["rain", "storm"], ["snow", "flake"], ["cup", "cake"],
+    ["rain", "drop"], ["foot", "step"], ["star", "burst"], ["moon", "beam"], ["fire", "work"], ["water", "melon"], ["sea", "weed"], ["butter", "milk"], ["key", "hole"], ["hand", "bag"],
+    ["shoe", "box"], ["sun", "screen"], ["book", "store"], ["hair", "cut"], ["ear", "phone"], ["wrist", "band"], ["rain", "bow"], ["snow", "ball"], ["cup", "board"], ["play", "mate"],
+    ["pop", "star"], ["mail", "man"], ["pan", "try"], ["sail", "fish"], ["jelly", "bean"], ["sand", "castle"], ["back", "yard"], ["gold", "mine"], ["star", "ship"], ["moon", "walk"],
+    ["snow", "storm"], ["fire", "place"], ["water", "park"], ["sea", "shore"], ["butter", "cup"], ["key", "pad"], ["hand", "print"], ["shoe", "horn"], ["sun", "shine"], ["book", "shelf"],
+    ["hair", "pin"], ["ear", "plug"], ["wrist", "lock"], ["rain", "gauge"], ["snow", "plow"], ["cup", "holder"], ["play", "pen"], ["pop", "top"], ["mail", "order"], ["pan", "handle"],
+    ["sail", "cloth"], ["jelly", "roll"], ["sand", "dune"], ["back", "stroke"], ["gold", "ring"], ["star", "map"], ["moon", "stone"], ["snow", "drift"], ["fire", "truck"], ["water", "wheel"]
   ],
   "medium": [
-    ["star", "fish"],
-    ["moon", "light"],
-    ["snow", "man"],
-    ["fire", "fly"],
-    ["water", "fall"]
+    ["star", "fish"], ["moon", "light"], ["snow", "man"], ["fire", "fly"], ["water", "fall"], ["rain", "coat"], ["sea", "shell"], ["butter", "fly"], ["pop", "corn"], ["key", "board"],
+    ["hand", "shake"], ["shoe", "lace"], ["sun", "rise"], ["sun", "set"], ["book", "case"], ["book", "mark"], ["hair", "brush"], ["ear", "ring"], ["wrist", "watch"], ["rain", "storm"],
+    ["snow", "flake"], ["cup", "cake"], ["rain", "drop"], ["foot", "step"], ["star", "burst"], ["moon", "beam"], ["fire", "work"], ["water", "melon"], ["sea", "weed"], ["butter", "milk"],
+    ["key", "hole"], ["hand", "bag"], ["shoe", "box"], ["sun", "screen"], ["book", "store"], ["hair", "cut"], ["ear", "phone"], ["wrist", "band"], ["rain", "bow"], ["snow", "ball"],
+    ["cup", "board"], ["play", "mate"], ["pop", "star"], ["mail", "man"], ["pan", "try"], ["sail", "fish"], ["jelly", "bean"], ["sand", "castle"], ["back", "yard"], ["gold", "mine"],
+    ["star", "ship"], ["moon", "walk"], ["snow", "storm"], ["fire", "place"], ["water", "park"], ["sea", "shore"], ["butter", "cup"], ["key", "pad"], ["hand", "print"], ["shoe", "horn"],
+    ["sun", "shine"], ["book", "shelf"], ["hair", "pin"], ["ear", "plug"], ["wrist", "lock"], ["rain", "gauge"], ["snow", "plow"], ["cup", "holder"], ["play", "pen"], ["pop", "top"],
+    ["mail", "order"], ["pan", "handle"], ["sail", "cloth"], ["jelly", "roll"], ["sand", "dune"], ["back", "stroke"], ["gold", "ring"], ["star", "map"], ["moon", "stone"], ["snow", "drift"],
+    ["fire", "truck"], ["water", "wheel"], ["earth", "worm"], ["news", "stand"], ["basket", "case"], ["air", "mail"], ["black", "smith"], ["foot", "ball"], ["over", "coat"], ["under", "wear"]
   ],
   "hard": [
-    ["earth", "quake"],
-    ["news", "paper"],
-    ["basket", "ball"],
-    ["air", "plane"],
-    ["black", "board"]
+    ["earth", "quake"], ["news", "paper"], ["basket", "ball"], ["air", "plane"], ["black", "board"], ["foot", "print"], ["over", "come"], ["under", "stand"], ["after", "noon"], ["cross", "walk"],
+    ["hand", "shake"], ["shoe", "lace"], ["sun", "rise"], ["sun", "set"], ["book", "case"], ["book", "mark"], ["hair", "brush"], ["ear", "ring"], ["wrist", "watch"], ["rain", "storm"],
+    ["snow", "flake"], ["cup", "cake"], ["rain", "drop"], ["foot", "step"], ["star", "burst"], ["moon", "beam"], ["fire", "work"], ["water", "melon"], ["sea", "weed"], ["butter", "milk"],
+    ["key", "hole"], ["hand", "bag"], ["shoe", "box"], ["sun", "screen"], ["book", "store"], ["hair", "cut"], ["ear", "phone"], ["wrist", "band"], ["rain", "bow"], ["snow", "ball"],
+    ["cup", "board"], ["play", "mate"], ["pop", "star"], ["mail", "man"], ["pan", "try"], ["sail", "fish"], ["jelly", "bean"], ["sand", "castle"], ["back", "yard"], ["gold", "mine"],
+    ["star", "ship"], ["moon", "walk"], ["snow", "storm"], ["fire", "place"], ["water", "park"], ["sea", "shore"], ["butter", "cup"], ["key", "pad"], ["hand", "print"], ["shoe", "horn"],
+    ["sun", "shine"], ["book", "shelf"], ["hair", "pin"], ["ear", "plug"], ["wrist", "lock"], ["rain", "gauge"], ["snow", "plow"], ["cup", "holder"], ["play", "pen"], ["pop", "top"],
+    ["mail", "order"], ["pan", "handle"], ["sail", "cloth"], ["jelly", "roll"], ["sand", "dune"], ["back", "stroke"], ["gold", "ring"], ["star", "map"], ["moon", "stone"], ["snow", "drift"],
+    ["fire", "truck"], ["water", "wheel"], ["earth", "worm"], ["news", "stand"], ["basket", "case"], ["air", "mail"], ["black", "smith"], ["foot", "ball"], ["over", "coat"], ["under", "wear"]
   ]
 }

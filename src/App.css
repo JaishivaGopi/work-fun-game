@@ -1,3 +1,75 @@
+/* Responsive layout for main app screens */
+@media (max-width: 900px) {
+  .container {
+    max-width: 98vw;
+    padding: 12px;
+    margin: 16px auto;
+  }
+  .compound-cards {
+    min-width: 90vw;
+    max-width: 98vw;
+    padding: 12px 4px;
+    min-height: 320px;
+  }
+  .rainbow-text {
+    font-size: 1.3em;
+  }
+  .btn, .input {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  h2, h3 {
+    font-size: 1.3em !important;
+    margin-bottom: 12px !important;
+  }
+  .game-options {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .game-btn {
+    width: 100%;
+    padding: 16px 8px !important;
+    font-size: 1em !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 100vw;
+    padding: 6px;
+    margin: 8px auto;
+  }
+  .compound-cards {
+    min-width: 98vw;
+    max-width: 100vw;
+    padding: 6px 2px;
+    min-height: 180px;
+  }
+  .rainbow-text {
+    font-size: 1em;
+  }
+  h2, h3 {
+    font-size: 1em !important;
+    margin-bottom: 8px !important;
+  }
+  .btn, .input {
+    font-size: 0.95em;
+    padding: 8px;
+  }
+  .game-options {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .game-btn {
+    width: 100%;
+    padding: 12px 4px !important;
+    font-size: 0.95em !important;
+  }
+  .card-btn {
+    padding: 8px 8px;
+    font-size: 0.9em;
+  }
+}
 /* Kid-friendly modal styles for CompoundWordSolo dialog */
 .kid-modal-overlay {
   position: fixed;
@@ -226,8 +298,9 @@ body {
 }
 
 .container {
-  max-width: 400px;
-  margin: 40px auto;
+  width: 100vw;
+  max-width: 100vw;
+  margin: 0;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -235,6 +308,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .input {
@@ -283,8 +357,10 @@ body {
 
 @media (max-width: 600px) {
   .container {
-    max-width: 98vw;
-    padding: 12px;
+    max-width: none;
+    width: 100vw;
+    margin: 0;
+    padding: 8px;
   }
   .btn, .input {
     font-size: 1rem;
