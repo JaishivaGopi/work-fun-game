@@ -7,6 +7,7 @@ import FindAdjective from "./FindAdjective";
 import VR from "./VR";
 import NVR from "./NVR";
 import ShapeColors from "./ShapeColors";
+import SpellMe from "./SpellMe";
 
 const GAME_OPTIONS = [
   { key: 'compound', label: 'Compound Word-Solo' },
@@ -14,6 +15,8 @@ const GAME_OPTIONS = [
   { key: 'nvr', label: 'NVR' },
   { key: 'alpha', label: 'Alpha Shoot' },
   { key: 'shapecolors', label: 'Shapes & Colors Quest' },
+    { key: 'spellme', label: 'Spell Me' }, // <-- Add this line
+
 ];
 
 
@@ -283,6 +286,13 @@ function App() {
         />
       );
     }
+    if (selectedGame === 'spellme') {
+  return (
+    <SpellMe
+      onBack={() => setPage('select')}
+    />
+  );
+}
     let gameTitle = GAME_OPTIONS.find(g => g.key === selectedGame)?.label || '';
     return (
       <div className="container">

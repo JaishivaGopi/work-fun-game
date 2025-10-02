@@ -1,0 +1,22 @@
+[
+  { "word": "CAT", "clue": "A small pet that says meow.", "emoji": "🐱" },
+  { "word": "DOG", "clue": "Best friend that wags tail.", "emoji": "🐶" },
+  { "word": "FROG", "clue": "Jumps and says ribbit.", "emoji": "🐸" },
+  { "word": "MOON", "clue": "Glows at night.", "emoji": "🌕" },
+  { "word": "STAR", "clue": "Shines in the sky.", "emoji": "⭐" },
+  { "word": "FISH", "clue": "Swims in water.", "emoji": "🐟" },
+  { "word": "TREE", "clue": "Has leaves and branches.", "emoji": "🌳" },
+  { "word": "BIRD", "clue": "Flies with wings.", "emoji": "🐦" },
+  { "word": "BOOK", "clue": "You read it.", "emoji": "📚" },
+  { "word": "RAIN", "clue": "Falls from clouds.", "emoji": "🌧️" },
+  { "word": "SUN", "clue": "Shines bright in the sky.", "emoji": "☀️" },
+  { "word": "CAR", "clue": "You drive it on the road.", "emoji": "🚗" },
+  { "word": "BALL", "clue": "Round toy you can kick or throw.", "emoji": "⚽" },
+  { "word": "CAKE", "clue": "Sweet treat for birthdays.", "emoji": "🎂" },
+  { "word": "ICE", "clue": "Cold and frozen water.", "emoji": "🧊" },
+  { "word": "EGG", "clue": "Hatches a chick or used in cooking.", "emoji": "🥚" },
+  { "word": "HAT", "clue": "You wear it on your head.", "emoji": "🎩" },
+  { "word": "SHIP", "clue": "Big boat sailing on the sea.", "emoji": "🚢" },
+  { "word": "MILK", "clue": "A drink from cows.", "emoji": "🥛" },
+  { "word": "COW", "clue": "Animal that moos.", "emoji": "🐄" }
+]
