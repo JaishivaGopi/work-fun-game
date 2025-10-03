@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import CompoundWordSolo from "./CompoundWordSolo";
 import compoundWords from "./compoundWords.json";
@@ -8,6 +7,7 @@ import VR from "./VR";
 import NVR from "./NVR";
 import ShapeColors from "./ShapeColors";
 import SpellMe from "./SpellMe";
+import SoundSafari from "./SoundSafari";
 
 const GAME_OPTIONS = [
   { key: 'compound', label: 'Compound Word-Solo' },
@@ -15,7 +15,9 @@ const GAME_OPTIONS = [
   { key: 'nvr', label: 'NVR' },
   { key: 'alpha', label: 'Alpha Shoot' },
   { key: 'shapecolors', label: 'Shapes & Colors Quest' },
-    { key: 'spellme', label: 'Spell Me' }, // <-- Add this line
+  { key: 'spellme', label: 'Spell Me' }, 
+  { key: 'soundsafari', label: 'Sound Safari' }, 
+
 
 ];
 
@@ -293,6 +295,13 @@ function App() {
     />
   );
 }
+    if (selectedGame === 'soundsafari') {
+      return (
+        <SoundSafari
+          onBack={() => setPage('select')}
+        />
+      );
+    }
     let gameTitle = GAME_OPTIONS.find(g => g.key === selectedGame)?.label || '';
     return (
       <div className="container">
